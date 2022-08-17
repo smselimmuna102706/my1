@@ -1,0 +1,171 @@
+*{margin:0;padding:0}
+body{font-family:arial;font-size:15px;line-height:25px;}
+
+
+
+#primarymanu{list-style:none;}
+#primarymanu li{float:left;position:relative;z-index:1px;}
+#primarymanu li a{color: #033e1b;text-decoration:none;padding: 24px 30px;font-weight:bold;}
+#mainNav{width:100%;background: #e6efe7;border-bottom:2px solid #033e1b;display:table;}
+#primarymanu li a:hover{color: #033e1b;}
+img{width:100%;}
+#logodiv{width:150px;float:left;text-align:center;}
+.displaysize{width:1170px;margin:auto;}
+#lastnav{width:700px;float:right;margin-top: 25px;}
+#logodiv img{margin-bottom: -10px;}
+#sub-menu{
+    list-style: none;
+    background: #009688;
+    position: absolute;
+    top: 49px;
+    width: 190px;
+    left:0px;
+    border-top:2px solid orange;
+    transform:scaleY(0);
+    transform-origin:top;
+    transition:all 1s;
+opacity:(0);
+
+
+}
+ul#sub-menu li{float:none;transition:all 2s;}
+#sub-menu li a{color:white;padding:4px;line-height:10px;font-size:15px;font-weight:bold;}
+#primarymanu li:hover #sub-menu{left:3px;
+background: #009688;
+transform:scaleY(2);
+opacity:(1);
+}
+#sub-menu li:hover{transform:translateX(60px);}
+
+.button #first{
+	/* margin-top: 6px; */
+	background:black;
+	padding:10px;
+	color:white;
+	transform: translateY(258px );
+	/* transform: translateX(200PX); 
+	*/
+	margin-left: 262px;
+	border-radius: 5px;
+	}
+   
+.button #first:hover{background:white;color:#07c;	transition:all 1s;}
+
+
+
+
+
+.services{width:1170px;margin:auto;}
+
+ #mycontent{width: 370px;float:left;box-shadow: 0px 1px 20px 1px #100b0b;}
+ #mypc{width:600px;float:right;}
+  #mycontent, #mypc{display:inline-block;}
+ #mypc,p{
+    /* margin-top: 30px; */
+    font-size: 14px;
+    color: #4CAF50;
+}
+ h3{border-bottom:2px solid red;color: #9C27B0;font-weight:bold;font-size: 30px;/* margin-top: 1px; */margin-bottom: 19px;}
+  h1 span{color:orange;}
+ 
+ #service-block{text-align:center;font-size:30px;margin-bottom: 59px;margin-top: 32px;}
+ 
+ 
+
+
+
+ .maincontent{
+ width: 346px;
+ border: 1px solid #080505;
+ text-align:center;
+ padding: 10px;
+ height: 197px;
+ display:inline-block;
+ margin-top: 18px;
+ cursor:pointer;
+ transition:all 1s;
+ margin-bottom: 14px;
+ }
+ 
+ 
+ .maincontent:hover{background:#06c;color:white;transform:scaleY(0.9)}
+ 
+  .maincontent h5:hover{color:white;transform:translateX(90px)}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .maincontent h5{
+ font-size:18px;
+ color:black;
+ margin-bottom: 17px;
+ cursor:pointer;
+ transition:all 1s;
+ margin-top: 36px;
+ }
+ 
+ 
+ .sectiontul{width: 1329px;cursor:pointer;background: #d8d3d3;margin:auto;text-align: center;padding: 10px;/* width: 100%; */margin-bottom: 18px;}
+ 
+ 
+ h2{font-size:30px;cursor:pointer;}
+ .hedingtrag{width:300px;cursor:pointer;border-bottom:2px solid black;text-align: center;margin: auto;margin-top: 10px;margin-bottom: 21px;}
+ 
+
+
+.mainNav{background: #a09797;width: 1306px;padding:20px;margin: auto;}
+
+
+
+.maincontact{background:white;color:black;width: 349px;padding:10px;font-size:18px;text-align: center;}
+ 
+ .font{display:inline-block;margin: auto;margin-left: 49px;margin-top: 45px;}
+ 
+ .contact{
+ width: 203px;
+ color:black;
+ font-size: 38px;
+ font-weight:bold;
+ border-bottom:2px solid white;
+ text-align: center;
+ maragin: auto;
+ margin: auto;
+ margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ #amarblock{width:400px;border:2px solid black;margin:auto;}
+#inputfilled {margin-top:10px;padding:5px;}
+#inputfilled input,select{
+    width: 99%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background: #635d4a;
+    color:white;
+}
+#submittitle input{width:95%;padding:8px;text-align:center;background: #9C27B0;color:white;font-family:arial black;border-radius:5px;cursor: pointer;}
+#submittitle {margin-top:10px;padding:5px;}
+#title{background: #9C27B0;width:97%;margin:9px;border-radius:5px;}
+#title h2{padding:10px;text-align:center;margin:0px;color:white;font-family:arial black;}
+body{/* background: #012d03ed; */}
+#sss{color: #5322a9;cursor: pointer;}
+h2{color: #254ab1;}
+#fff input{color:white;}
+ 
+ .llogo img{width: 34px;line-height:20px;}
+ 
+ 
+ 
+ .main{width:1306px;background:black;padding: 69px;/* margin-top: 20px; */}
+ .titil h5{color:white;width:700px;float:left;font-size: 34px;margin-top: 20px;}
+ .llogo {width: 196px;float:right;display:inline-block;display: contents;display: inline-flex;margin-top: 26px;}
+ 
+ 
